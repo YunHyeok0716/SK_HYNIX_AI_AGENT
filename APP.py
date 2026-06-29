@@ -11,7 +11,7 @@ if "scanned" not in st.session_state:
 
 # 메인 화면 타이틀 및 설명
 st.title("👗 Fit Me Up! (핏미업)")
-st.caption("사용자의 옷장을 실시간 스캔하여 보유 아이템 기반 최고의 스타일을 추천하는 패션 AI 에이전트")
+st.caption("사용자의 옷장을 실시간 스캔하여 보유 아이템 기반 최고의 스타일을 추천하는 패션 AI 에이전트___BY.최윤혁")
 st.markdown("---")
 
 # 레이아웃 구성 (좌측: 옷장 스캔 및 데이터 / 우측: 스타일 추천 에이전트)
@@ -46,7 +46,7 @@ with col_left:
             st.rerun()
             
     st.markdown("---")
-    st.subheader("📊 AI 인지 보유 아이템 (각 10종 이상)")
+    st.subheader("📊 AI 인지 보유 아이템")
     
     if st.session_state.scanned:
         with st.expander("👔 상의 (Tops) - 10개", expanded=True):
