@@ -37,7 +37,7 @@ with col_left:
             st.rerun()
             
     st.markdown("---")
-    st.subheader("📊 AI 인지 보유 아이템 (각 10종 이상)")
+    st.subheader("📊 사용자가 보유하고 있는 아이템 ")
     
     # 스캔이 완료되었을 때만 데이터 노출 (각 품목별 10개 이상 데이터)
     if st.session_state.scanned:
